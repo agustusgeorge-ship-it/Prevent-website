@@ -24,7 +24,9 @@
 ### User Stories
 Write your user stories in this section
 ### Wireframes
-Attach wireframes in this section
+Tablet, Larger Screens and Mobile View:
+<img width="1401" height="763" alt="Screenshot 2026-08-18 205431" src="https://github.com/user-attachments/assets/2fe8ced7-53f7-45ff-8cda-04c86afa9ecd" />
+
 ### Typography
 Explain font you've used for your project
 ### Colour Scheme
