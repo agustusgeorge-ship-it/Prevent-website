@@ -12,6 +12,12 @@
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 68px;
+  padding: 0 28px;
   color: var(--white);
   background-color: var(--ink);
 }
@@ -41,34 +47,13 @@ a {
 }
 h1,
 h2,
-h3,
-.brand {
+h3 {
   font-family: Montserrat, sans-serif;
-}
-.site-header,
-.site-footer {
-  color: var(--white);
-  background: var(--ink);
-}
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 68px;
-  padding: 0 28px;
 }
 .navbar-brand {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-}
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 700;
-  text-decoration: none;
 }
 .brand-mark {
   display: grid;
@@ -79,16 +64,9 @@ h3,
   background: var(--white);
   border-radius: 50%;
 }
-.nav-links {
-  display: flex;
-  gap: 26px;
-  font-weight: 600;
-}
-.nav-links a,
 .footer-report {
   text-decoration: none;
 }
-.nav-links a[aria-current="page"],
 .footer-report:hover {
   color: var(--accent);
 }
@@ -117,7 +95,7 @@ h3,
 .hero-copy {
   max-width: 700px;
 }
-.eyebrow {
+.top {
   margin: 0 0 12px;
   color: var(--accent);
   font-size: 0.75rem;
@@ -218,9 +196,6 @@ h1 em {
   color: var(--white);
   background: var(--ink);
 }
-.video-section .eyebrow {
-  color: var(--accent);
-}
 .video-frame {
   max-width: 840px;
   aspect-ratio: 16/9;
@@ -238,6 +213,8 @@ h1 em {
   bottom: 0;
   left: 0;
   padding: 8px 28px;
+  color: var(--white);
+  background: var(--ink);
 }
 .footer-main {
   display: flex;
@@ -342,23 +319,6 @@ h1 em {
 }
 /* <768px */
 @media (max-width: 767.98px) {
-  .navbar-toggler {
-    display: block;
-  }
-  .nav-links.collapse {
-    display: none !important;
-    position: absolute;
-    z-index: 2;
-    top: 68px;
-    right: 20px;
-    left: 20px;
-    flex-direction: column;
-    gap: 0;
-    padding: 10px 20px;
-    color: var(--ink);
-    background: var(--white);
-  }
-
   .hero {
     display: block;
     min-height: 500px;
@@ -392,12 +352,6 @@ h1 em {
   }
 }
 
-/* >=768px */
-@media (min-width: 768px) {
-  .nav-links.collapse {
-    display: flex !important;
-  }
-}
 /* >=992px */
 @media (min-width: 992px) {
   .navbar,
