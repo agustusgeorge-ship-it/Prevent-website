@@ -66,7 +66,11 @@ Tablet, Larger Screens and Mobile View:
 <img width="1401" height="763" alt="Screenshot 2026-08-18 205431" src="https://github.com/user-attachments/assets/2fe8ced7-53f7-45ff-8cda-04c86afa9ecd" />
 
 ### Typography
-Explain font you've used for your project
+I used Montserrat for the header and Open Sans for the body as I wanted the site to be serious but trustable as it is a prevent scams website.
+
+<img width="1136" height="462" alt="image" src="https://github.com/user-attachments/assets/7c4e20cd-13a7-4411-bc8a-16470555ee53" />
+
+
 ### Colour Scheme
 Screenshoot of the colour scheme for your project
 
