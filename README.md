@@ -68,29 +68,61 @@ I used Montserrat for the header and Open Sans for the body as I wanted the site
 <img width="255" height="189" alt="image" src="https://github.com/user-attachments/assets/b1e5383a-3282-4734-862a-8322b68cf3a3" />
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms.....)
+
 ### Navigation
 The Navbar used was taken from Bootstrap documentation and altered to be on the right side. It takes you to every page on the website except for Report a Situation which is located on the footer and is visible in every page.
 ### Footer
 The footer is styled in the same color as the header and contains contact information as well as a link to the police form. It is fixed in its positioning and is in every html file.
-### Other features
+### Embedded video
 Embedded video in the homepage that quickly summarises the need for this website and reaching out.
+### Forms
+Two forms that have 3 fields and lead to a results page if all answers match the required criteria
+
 ## Technologies Used
 HTML
 CSS
 Bootstrap
-CoPilot
+CoPilot (Styling)
 Github
+ChatGPT (Text content)
 ## Testing
-Important part of your README!!!
-### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
-### Browser Compatibility
-Check compatability with different browsers
+
 ### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+Screenshots of the responsivness:
+<img width="824" height="919" alt="image" src="https://github.com/user-attachments/assets/2848416c-d3d9-4d25-adc5-d25987cb9cea" />
+
+<img width="778" height="679" alt="image" src="https://github.com/user-attachments/assets/aad1d7c2-cce8-432b-b677-8bf377c849a9" />
+
+<img width="805" height="744" alt="image" src="https://github.com/user-attachments/assets/ebf03066-fd4f-478e-8993-e2b5b9d439c5" />
+
+<img width="1361" height="892" alt="image" src="https://github.com/user-attachments/assets/608562ed-e8b2-4bba-9e8c-1c2e622358dc" />
+
 ### Code Validation
 Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+index.html:
+
+<img width="1822" height="814" alt="image" src="https://github.com/user-attachments/assets/cb72ea54-56e9-445e-8f26-7c885e9e60b7" />
+
+dangers.html:
+
+<img width="1800" height="819" alt="image" src="https://github.com/user-attachments/assets/1ac59781-26ee-4988-9414-fa70fbb51d80" />
+
+help.html:
+
+<img width="1822" height="813" alt="image" src="https://github.com/user-attachments/assets/c7d6dc99-6078-4636-bd86-a872dc87643c" />
+
+report.html:
+
+<img width="1794" height="779" alt="image" src="https://github.com/user-attachments/assets/bedbcddd-3c20-4557-b829-1c4bb196de49" />
+
+results.html:
+
+<img width="1739" height="800" alt="image" src="https://github.com/user-attachments/assets/4ee7ed1c-d196-4704-936f-398bca15e3fc" />
+
+style.css:
+
+<img width="1810" height="793" alt="image" src="https://github.com/user-attachments/assets/9bc6ecf4-46ed-40c4-becb-f15cf38c7160" />
+
 ### Manual Testing user stories or/and features
 Test all your user stories, you an create table 
 User Story |  Test | Pass
@@ -98,16 +130,27 @@ User Story |  Test | Pass
 As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.| Site layout and navigation are intuitive, allowing easy access to different sections. | &check;
 <img width="419" height="832" alt="image" src="https://github.com/user-attachments/assets/f71ff145-aa57-4ff5-9289-1d38343d0671" />
 
+User Story |  Test | Pass
+--- | --- | :---:
+As a User that may need help, I want to be able to report an issue to police or send a query to professionals that can help.| The user can fill out their issue or dangerous situation to be able to get into to contact with the right people. | &check;
+<img width="1897" height="826" alt="image" src="https://github.com/user-attachments/assets/683b4274-51d4-435c-9dd7-e1ce8dacfd9a" />
+
+User Story |  Test | Pass
+--- | --- | :---:
+As a User I want to be able to learn about online dangers through reading as well as a video describing when to seek help.| Should have a video that can be played in the website and text boxes that can summarise and explain other dangers. | &check;
+<img width="1880" height="821" alt="image" src="https://github.com/user-attachments/assets/00f5c07f-e3ec-44e5-9374-ed8d17a12f8f" />
 
 ## Bugs
-List of bugs and how did you fix them
+List of bugs and how did you fix them:
+
+Embedded video would not display or play. Talked to Vasi and was able to make it display by removing some css and adding "allow" in the iframe. It will only play on a live server.
+
+Heading form text was too close to the subtext below so gave it margin: {0 0 12px} for more space on the bottom.
+
+Footer took up too much space since I initially included locations. Removed locations and ensured the footer was fixed for better readability.
 
 ## Deployment
 
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
 #### Deloying on Github
 The site was deployed to Github Pages using the following method:
 - Go to the Github repository.
@@ -117,9 +160,9 @@ The site was deployed to Github Pages using the following method:
 
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
-  - Code & Text Content
+  - Copilot helped mostly with css as I had trouble getting the layout to behave as I had planned
   
-  - Media
+  - Used this youtube video: https://www.youtube.com/watch?v=XnLOAVF5Nm8 and this image for the hero image: https://www.vecteezy.com/vector-art/68465929-wave-business-banner-background-blue-and-orange-color
   
-  - Acknowledgment
+  - The text content within the website was a mix of the ACT video mentioned above as well as general advice from ChatGPT
     
