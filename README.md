@@ -87,6 +87,11 @@ Github
 ChatGPT (Text content)
 ## Testing
 
+### Google Lighthouse
+
+<img width="1565" height="832" alt="image" src="https://github.com/user-attachments/assets/4d389df1-9ea0-4adf-8e23-22000376be29" />
+
+
 ### Responsiveness
 Screenshots of the responsivness:
 <img width="824" height="919" alt="image" src="https://github.com/user-attachments/assets/2848416c-d3d9-4d25-adc5-d25987cb9cea" />
