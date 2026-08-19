@@ -53,14 +53,6 @@ Task:
 
 Embed Youtube video and format/include text boxes.
 
-### User Story 4: Testimonials:
-As a User I want to be able to see examples of people who did reach out as well as people that did not.
-Acceptance criteria:
-
-Create min 2 testimonials bad and good and display them towards the bottom of the homepage.
-Tasks:
-
-Find online testimonials of people that did prevent and people that did not.
 ### Wireframes
 Tablet, Larger Screens and Mobile View:
 <img width="1401" height="763" alt="Screenshot 2026-08-18 205431" src="https://github.com/user-attachments/assets/2fe8ced7-53f7-45ff-8cda-04c86afa9ecd" />
@@ -72,18 +64,22 @@ I used Montserrat for the header and Open Sans for the body as I wanted the site
 
 
 ### Colour Scheme
-Screenshoot of the colour scheme for your project
+
+<img width="255" height="189" alt="image" src="https://github.com/user-attachments/assets/b1e5383a-3282-4734-862a-8322b68cf3a3" />
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
 ### Navigation
+The Navbar used was taken from Bootstrap documentation and altered to be on the right side. It takes you to every page on the website except for Report a Situation which is located on the footer and is visible in every page.
 ### Footer
+The footer is styled in the same color as the header and contains contact information as well as a link to the police form. It is fixed in its positioning and is in every html file.
 ### Other features
+Embedded video in the homepage that quickly summarises the need for this website and reaching out.
 ## Technologies Used
-List of technologies used for your project...
 HTML
 CSS
 Bootstrap
+CoPilot
 Github
 ## Testing
 Important part of your README!!!
@@ -99,8 +95,9 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 Test all your user stories, you an create table 
 User Story |  Test | Pass
 --- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
+As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.| Site layout and navigation are intuitive, allowing easy access to different sections. | &check;
+<img width="419" height="832" alt="image" src="https://github.com/user-attachments/assets/f71ff145-aa57-4ff5-9289-1d38343d0671" />
+
 
 ## Bugs
 List of bugs and how did you fix them
