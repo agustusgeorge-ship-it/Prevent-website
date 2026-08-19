@@ -21,8 +21,8 @@
   color: var(--white);
 }
 
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
+.navbar a.nav-link:hover,
+.navbar a.nav-link.active {
   color: var(--accent);
 }
 
@@ -88,7 +88,6 @@ h3,
 .footer-report {
   text-decoration: none;
 }
-.nav-links a:hover,
 .nav-links a[aria-current="page"],
 .footer-report:hover {
   color: var(--accent);
